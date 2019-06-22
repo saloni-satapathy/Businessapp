@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/sweetcakeshop"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bakeryshop"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Sweet Cake"
+        android:textSize= "49sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignLeft="@id/sweetcakeshop"
+        android:layout_alignBottom="@id/sweetcakeshop"/>
+
+</RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="08dp"
+       android:background="#ffffff">
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="match_parent"
+           android:src="@drawable/business"
+
+           />
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Account"
+        android:textSize="20sp"
+
+        android:textColor="#000000"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+
+        android:paddingTop="08dp"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/time"
+            android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9:00AM-10:30PM"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:textColor="#000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingTop="08dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fb"
+            android:background="#ffffff"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fb.me/sweetcakesrourkela"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:textColor="#0000ff"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="08dp"
+        android:background="#ffffff"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/food"
+            android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Food"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:textColor="#000000"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingTop="08dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+
+            android:src="@drawable/description" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We offer freshly baked breads, cakes, pastries, and other desserts.Custom cakes for all occassions."
+        android:textSize="20sp"
+        android:textColor="#000000"
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="05dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:src="@drawable/icons"
+            android:paddingBottom="05dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VSS Market Complex,Rourkela. "
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:paddingBottom="05dp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:background="#ffffff"
+        android:textColor="#25d366"
+        android:textSize="20sp"
+        android:paddingLeft="08dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingLeft="08dp">
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="05dp"
+                android:background="#ffffff"
+                android:text="+91 9658643628 "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/msg"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent" 
+            android:src="@drawable/call"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/video"/>
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
